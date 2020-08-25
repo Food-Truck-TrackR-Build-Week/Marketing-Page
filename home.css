@@ -83,6 +83,7 @@ h1{
     width: 6rem;
     border-radius: 12%;
     margin-top: 1%;
+    border:none;
 }
 
 .login{
@@ -91,6 +92,7 @@ h1{
     width: 6rem;
     border-radius: 12%;
     margin-top: 1%;
+    border:none;
 }
 
 .mainparagraph{
@@ -109,10 +111,61 @@ display: flex;
 justify-content: space-evenly;
 text-align: center;
 font-size: 20px;
+background-color:lightgrey;
+padding-top: 3rem;
 }
 
-.vendors, img{
+.vendors img{
     border-radius: 55%;
 }
-  
-  
+
+hr{
+    visibility: hidden;
+}
+
+h3{
+    text-align:center;
+    margin-top: 4%;
+    font-size: 30px;  
+    /* background-color: #00D4BD */
+    background-color: #1481B9;
+}
+
+.downloadPic{
+height: 30rem;
+width: 25rem;
+margin-left: -10rem;
+
+
+}
+
+.download{
+    display: flex;
+    /* background-color:#FFC107; */
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #1481B9;
+    
+}
+
+.apple{
+    height: 5rem;
+    flex-direction: column;
+    margin-top: 12rem;
+    border-radius: 5%;
+    width: 12rem;
+}
+
+.google{
+    height: 3.60rem;
+    flex-direction: column;
+    margin-top: 12.75rem;
+    border-radius: 12%;
+    width: 12rem;
+    margin-left: -8rem;
+
+}
+
+body{
+    background-color: #F6F6F6;
+}
