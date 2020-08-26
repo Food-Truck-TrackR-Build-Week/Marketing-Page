@@ -194,17 +194,27 @@ body{
 
     h1{
         /* text-align: center; */
-        margin-left: 8rem;
-        margin-top: 15rem;
+        /* margin-left: 8rem;
+        margin-top: 15rem; */
+        margin-top: 50%;
+        /* margin-left: -50rem; */
+        /* padding-left: 5%; */
+        text-align: center;
+        padding-right: 25%;
     }
 
     .mainparagraph{
         text-align: center;
+        margin-right: 10%;
+    }
+
+    .login{
+       margin-left: 10%;
     }
 
     .signUp{
-        margin-left: 35%;
-}
+        margin-right: 25%;
+    }
     
     .downloadPic{
         margin-left: -18%;
@@ -223,11 +233,16 @@ body{
 
 @media (max-width: 500px){
     h1{
-        margin-right: 8rem;
+        margin-right: 15%;
     }
 
     .signUp{
-        margin-left: 30%;
+        margin-left: 25%;
+    }
+
+    .login{
+        margin-left: -20%;
+        margin-right: 26%;
     }
 
     .downloadPic{
@@ -242,6 +257,10 @@ body{
         height: 2.75rem;
         margin-top: 13.15rem;
         width: 10rem;
+    }
+
+    .mainparagraph{
+        margin-right: 38%;
     }
 }
 
@@ -269,3 +288,29 @@ body{
 
     }
 } */
+
+@media (max-width: 1024px){
+    h1{
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    .mainparagraph{
+        margin-left: 25%;
+    }
+
+    .signUp{
+        margin-left: 25%;
+    }
+
+    .mainPic{
+        max-width: 50%;
+        width: 35%;
+    }
+
+    a{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
