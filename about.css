@@ -192,7 +192,8 @@ h3{
     .mainBtns{
         display: flex;
         flex-direction: column;
-        margin-left: 15%;
+        /* margin-left: 18%; */
+        margin-right: -15%;
     }
 
     .container1{
@@ -249,5 +250,11 @@ h3{
 
     .mainBtns{
         margin-left: 11%;
+    }
+} 
+
+@media (max-width:607px){
+    .mainBtns{
+        margin-left: 1%;
     }
 }
