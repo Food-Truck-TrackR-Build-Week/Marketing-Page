@@ -73,8 +73,9 @@ a{
 h1{
     font-size: 2rem;
     margin-top: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15%;
+    text-align: center;
 }
 
 .signUp{
@@ -84,6 +85,7 @@ h1{
     border-radius: 12%;
     margin-top: 1%;
     border:none;
+    margin-left: 43%;
 }
 
 .login{
@@ -97,7 +99,8 @@ h1{
 
 .mainparagraph{
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 h2{
@@ -128,7 +131,6 @@ h3{
     text-align:center;
     margin-top: 4%;
     font-size: 30px;  
-    /* background-color: #00D4BD */
     background-color: #1481B9;
 }
 
@@ -140,7 +142,6 @@ margin-left: -10rem;
 
 .download{
     display: flex;
-    /* background-color:#FFC107; */
     justify-content: center;
     justify-content: space-evenly;
     background-color: #1481B9;
@@ -174,7 +175,6 @@ body{
     display:flex;
     flex-direction: column;
     max-width: 50%;
-    /* margin-bottom: 30%; */
     }
 
     .vendors{
@@ -193,27 +193,19 @@ body{
     }
 
     h1{
-        /* text-align: center; */
-        /* margin-left: 8rem;
-        margin-top: 15rem; */
-        margin-top: 50%;
-        /* margin-left: -50rem; */
-        /* padding-left: 5%; */
+        margin-top: 25%;
         text-align: center;
-        padding-right: 25%;
+        margin-right: 3%;
     }
 
     .mainparagraph{
         text-align: center;
-        margin-right: 10%;
-    }
+        margin-right: 3%;
 
-    .login{
-       margin-left: 10%;
     }
 
     .signUp{
-        margin-right: 25%;
+        margin-left: 38%;
     }
     
     .downloadPic{
@@ -233,16 +225,11 @@ body{
 
 @media (max-width: 500px){
     h1{
-        margin-right: 15%;
+        text-align:center;
     }
 
     .signUp{
         margin-left: 25%;
-    }
-
-    .login{
-        margin-left: -20%;
-        margin-right: 26%;
     }
 
     .downloadPic{
@@ -260,57 +247,6 @@ body{
     }
 
     .mainparagraph{
-        margin-right: 38%;
-    }
-}
-
-/* @media (max-width: 1024px){
-    h1{
-        margin-top: 12rem;
-        margin-left: 15rem;
-    }
-
-    .mainparagraph{
-        margin-left: 13rem;
-    }
-
-    .signUp{
-        margin-left: 25rem;
-    }
-
-    .vendors{
-        display:flex;
-        flex-wrap: wrap;
-    }
-
-    a{
-        display: flex;
-
-    }
-} */
-
-@media (max-width: 1024px){
-    h1{
-        margin-top: 20%;
-        margin-left: 25%;
-    }
-
-    .mainparagraph{
-        margin-left: 25%;
-    }
-
-    .signUp{
-        margin-left: 25%;
-    }
-
-    .mainPic{
-        max-width: 50%;
-        width: 35%;
-    }
-
-    a{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        text-align: center;
     }
 }
