@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 .mainBtns{
     display:flex;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left:6%;
 }
 
 nav{
@@ -156,3 +157,33 @@ h3{
 
 }
 
+
+.container1 .gitLogo{
+    height:5rem;
+    width:5rem;
+    margin-left: 22%;
+}
+
+.container2 .gitLogo{
+    height:5rem;
+    width:5rem;
+    margin-left: 25%;
+}
+
+.container3 .gitLogo{
+    height:5rem;
+    width:5rem;
+    margin-left: 25%;
+}
+
+.container4 .gitLogo{
+    height:5rem;
+    width:5rem;
+    margin-left: 25%;
+}
+
+.container5 .gitLogo{
+    height:5rem;
+    width:5rem;
+    margin-left: 25%;
+}
