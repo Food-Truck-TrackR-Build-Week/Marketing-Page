@@ -187,3 +187,67 @@ h3{
     width:5rem;
     margin-left: 25%;
 }
+
+@media (max-width:500px){
+    .mainBtns{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+    }
+
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container5{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:800px){
+    .container1{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .container2{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .container3{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .container4{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .container5{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .mainBtns{
+        margin-left: 11%;
+    }
+}
